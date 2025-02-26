@@ -1,48 +1,48 @@
 # Allu-Gayathri-Vedanthi_Girl-Hackathon_SWE_2025
 
-Interpret.ai
+**Interpret.ai**
 
-Overview
+**Overview**
 
 Interpret.ai is an AI-driven text recognition tool that processes images and predicts textual content. The repository includes a trained deep learning model, dataset, and a graphical user interface (GUI) for easy interaction.
 
 Installation
 
-1. Clone the Repository
+**1. Clone the Repository**
 
 git clone <repository-url>
 cd interpret.ai
 
-2. Set Up a Virtual Environment
+**2. Set Up a Virtual Environment**
 
 It is recommended to use a virtual environment to manage dependencies.
 
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
-3. Install Dependencies
+**3. Install Dependencies**
 
 The following libraries are required for this project:
 
-numpy
+i. numpy
 
-tensorflow
+ii. tensorflow
 
-cv2 (OpenCV)
+iii. cv2 (OpenCV)
 
-sklearn
+iv. sklearn
 
-gradio
+v. gradio
 
-os (built-in)
+vi. os (built-in)
 
 To install them, run:
 
 pip install numpy tensorflow opencv-python scikit-learn gradio
 
-Running the Project
+**Running the Project**
 
-1. Running in Google Colab
+**1. Running in Google Colab**
 
 Since this project was developed in Google Colab, you need to:
 
@@ -52,7 +52,7 @@ Open model.ipynb in Colab.
 
 Run the notebook cells sequentially.
 
-2. Downloading the Dataset from Kaggle
+**2. Downloading the Dataset from Kaggle**
 
 To extract datasets from Kaggle, follow these steps:
 
@@ -63,7 +63,7 @@ To extract datasets from Kaggle, follow these steps:
 !kaggle datasets download -d <dataset-name>
 !unzip <dataset-name>.zip -d dataset/
 
-GUI Structure
+**GUI Structure**
 
 The GUI is implemented using gradio and provides a simple interface for users to upload an image and get text predictions.
 
@@ -75,7 +75,7 @@ Process Button: Runs the model and extracts text from the uploaded image.
 
 Output Display: Shows the predicted text output.
 
-Running the GUI
+**Running the GUI**
 
 To start the GUI locally, run:
 
@@ -83,7 +83,7 @@ python gui.py
 
 This will launch a web interface where users can interact with the model.
 
-Project Structure
+**Project Structure**
 
 interpret.ai/
 │── dataset/                   # Training dataset
@@ -94,7 +94,7 @@ interpret.ai/
 │── requirements.txt            # Python dependencies
 │── test_predictions_2.csv      # Sample test predictions
 
-Notes
+**Notes**
 
 Ensure you have Python 3.7+ installed.
 
