@@ -85,14 +85,13 @@ This will launch a web interface where users can interact with the model.
 
 **Project Structure**
 
-interpret.ai/
-│── dataset/                   # Training dataset
-│── model.h5                   # Trained deep learning model
-│── classes.npy                 # Class labels
-│── model.ipynb                 # Jupyter notebook for training/testing
-│── gui.py                      # GUI application
-│── requirements.txt            # Python dependencies
-│── test_predictions_2.csv      # Sample test predictions
+**dataset** : Training dataset
+**model.h5** : Trained deep learning model
+**classes.npy** : Class labels
+**model.ipynb** : Jupyter notebook for training/testing
+**gui.py** : GUI application
+**requirements.txt** : Python dependencies
+**test_predictions_2.csv** : Sample test predictions
 
 **Notes**
 
